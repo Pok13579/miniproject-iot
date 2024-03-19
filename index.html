@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real-time Sensor Data</title>
+    <style>
+        .bd{
+            border: 2;
+            border-color: #0000FF;
+        }
+        .head {
+            text-align: center;
+            color: #00FFFF;
+        }
+        .frame {
+            border: 1px solid #cccccc;
+        }
+    </style>
+</head>
+<body>
+    <table class="bd">
+        <tr><td colspan="2">
+        <h1 class="head">Data Collection Dashboard</h1>
+        </td></tr>
+        <tr>
+        <td class="frame">
+        <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/2465880/widgets/821796"></iframe>
+        <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/2465880/widgets/821798"></iframe>
+        <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/2465880/widgets/821799"></iframe>
+
+    </td>
+       </tr>
+        <tr>
+        <td class="frame">
+            // show data from api thingspeak
+        </td>
+</body>
+</html>
